@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import Weather from "../../Assets/Projects/WeatherApp.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import ToDo from "../../Assets/Projects/ToDo.png";
 
 function Projects() {
   return (
@@ -23,6 +25,24 @@ function Projects() {
               title="Online Banking System"
               description="Online Banking System in Python where user create, login, edit, withdraw, credit and delete their account. It uses pickle, os and pathlib library. For messaging on account creation, we used twillio api key."
               ghLink="https://github.com/Kshitij-Raj-01/Online-Banking-System/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Weather}
+              isBlog={false}
+              title="Weather App"
+              description="The Weather App project in ReactJS is a simple yet effective application that fetches and displays current weather data for a specified location. It leverages external weather APIs to provide real-time information and demonstrates key concepts of React development such as component-based architecture, state management, and API integration."
+              ghLink="https://github.com/Kshitij-Raj-01/WeatherApp-ReactJs/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ToDo}
+              isBlog={false}
+              title="ToDo App"
+              description="The Weather App project in ReactJS is a simple yet effective application that fetches and displays current weather data for a specified location. It leverages external weather APIs to provide real-time information and demonstrates key concepts of React development such as component-based architecture, state management, and API integration."
+              ghLink="https://github.com/Kshitij-Raj-01/TodoList-ReactJs/"
             />
           </Col>
         </Row>
