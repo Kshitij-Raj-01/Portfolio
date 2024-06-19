@@ -568,6 +568,20 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(73, 45, 233, 0.883) !important;
 }
+
+.tech-icons div:nth-child(2) {
+  display: none; 
+}
+
+.tech-icons:hover div:nth-child(1) {
+  display: none;
+}
+
+.tech-icons:hover div:nth-child(2) {
+  display: block;
+}
+
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

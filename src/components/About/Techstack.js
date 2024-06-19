@@ -8,31 +8,39 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import {SiNextdotjs} from "react-icons/si";
+import python from "../../Assets/techstack/python.png";
+import Js from "../../Assets/techstack/JavaScript.png";
+import react from "../../Assets/techstack/React.png";
+import node from "../../Assets/techstack/Node Js.png";
+import git from "../../Assets/techstack/Git.png";
+import mongo from "../../Assets/techstack/MongoDb.png";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <div><DiJavascript1 /></div>
+        <div><img src={Js} style={{scale:'1.2'}} alt="" /></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <div><DiNodejs /></div>
+        <div><img src={node} style={{scale:'1.2'}} alt="" /></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <div><DiReact /></div>
+        <div><img src={react} style={{scale:'1.2'}} alt="" /></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <div><DiMongodb /></div>
+        <div><img src={mongo} style={{scale:'1.2'}} alt="" /></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <div><DiGit /></div>
+        <div><img src={git} style={{scale:'1.2'}} alt="" /></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <div><DiPython /></div>
+        <div><img src={python} style={{scale:'1.2'}} alt="" /></div>
       </Col>
     </Row>
   );
