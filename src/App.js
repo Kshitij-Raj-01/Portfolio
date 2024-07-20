@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 // import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -44,6 +45,7 @@ function App() {
         </Routes>
         <Footer />
         <Analytics/>
+        <SpeedInsights/>
       </div>
     </Router>
   );
