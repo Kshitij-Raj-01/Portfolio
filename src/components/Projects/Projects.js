@@ -41,7 +41,7 @@ function Projects() {
               imgPath={ToDo}
               isBlog={false}
               title="ToDo App"
-              description="The Weather App project in ReactJS is a simple yet effective application that fetches and displays current weather data for a specified location. It leverages external weather APIs to provide real-time information and demonstrates key concepts of React development such as component-based architecture, state management, and API integration."
+              description="The ToDo List project is designed to help users manage their tasks efficiently. Users can add new tasks with descriptions, mark tasks as completed, view a list of completed tasks, and delete tasks. The project demonstrates the use of ReactJS for building interactive user interfaces."
               ghLink="https://github.com/Kshitij-Raj-01/TodoList-ReactJs/"
             />
           </Col>
