@@ -60,9 +60,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={VidyaVaani}
-              isBlog={false}
+              isBlog={true}
               title="Vidya Vaani"
               description="Vidya Vaani is an inclusive educational platform for deaf and mute individuals, teaching math and science through Indian Sign Language (ISL) in Hindi, English, and Gujarati. It offers tailored interfaces for students, parents, and teachers, with features like voice-to-sign and sign-to-voice converters, interactive quizzes, and progress tracking. Built with React Native, Django, and AI/ML, it bridges communication gaps and fosters accessible learning."
+              ghLink="https://blog-loom.netlify.app/blogs/Vidya-Vaani-Empowering-Deaf-and-Mute-Communities-through-Sign-Language-in-Their-Native-Language4gTfmD_riAJW5jpo7GHiR"
             />
           </Col>
         </Row>
