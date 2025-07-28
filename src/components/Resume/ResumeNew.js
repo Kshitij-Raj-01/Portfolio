@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
   // Correct path to the PDF stored in the public folder
-  const pdfPath = "/assets/resume/resume.pdf";
+  const pdfPath = "/assets/resume/Resume.pdf";
 
   return (
     <div>
